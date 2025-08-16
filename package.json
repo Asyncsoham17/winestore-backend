@@ -2,14 +2,19 @@
   "name": "winebackend",
   "version": "1.0.0",
   "description": "code to deplopy",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    
+    "dev":"nodemon src/index.js"
   },
   "author": "soham mangal",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^17.2.1",
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
