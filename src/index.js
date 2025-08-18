@@ -1,3 +1,13 @@
+import dotenv from "dotenv";
+import connectDB from "./db/index.js";
+
+dotenv.config()
+
+
+
+connectDB()
+
+/*
 require('dotenv').config()
 import express from 'express'
 
@@ -16,3 +26,4 @@ app.get('/x handle',(req,res) => {
 app.listen(process.env.PORT,() =>{
     console.log('example port listening on ${port}')
 })
+*/
